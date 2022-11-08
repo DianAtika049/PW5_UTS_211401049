@@ -1,0 +1,142 @@
+/* CSS UNTUK MENGUBAH BG COLOR SELURUH KONTEN */
+body{
+    background-color: floralwhite;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR NAVBAR*/
+.navbar{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR, JENIS, DAN SIZE FONT PADA NAVBAR HOME, ABOUT US, DLL */
+.nav-link{
+    font-family: cursive;
+    font-size: 17px;
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MEMBERIKAN HOVER DI NAVBAR */
+.nav-link:hover{
+    background-color: floralwhite;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR, FONT, DAN ALIGN DROPDOWN MENU*/
+.dropdown-menu{
+    background-color:white;
+    font-family: cursive;
+    text-align: center;
+}
+
+/* CSS UNTUK MENGUBAH WARNA TULISAN WIDGET SEARCH */
+.btn{
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MENGUBAH WARNA TULISAN DI FORM WIDGET SEACRH */
+.form-control{
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MEMBUAT TULISAN NAMA WEB, LOGO, DAN SLOGAN BERADA DI TENGAH NAVBAR */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1 0 50%;
+}
+
+/* CSS UNTUK MENGUBAH JENIS FONT DAN KETEBALAN NAMA WEB YANG BERADA DI TENGAH NAVBAR */
+.somethinc{
+    font-family: century gothic;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* CSS UNTUK MENGUBAH JENIS FONT DAN KETEBALAN SLOGAN WEB YANG BERADA DI TENGAH NAVBAR */
+.slogan_somethinc{
+    font-family: cochin;
+    font-weight: bold;
+}
+
+/* CSS UNTUK MENGATUR LETAK CAROUSEL / IMG SLIDER */
+.carousel-inner{
+    align-items: center;
+    margin-top: 30px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+/* CSS UNTUK MENGATUR BODY CARD SPECIAL COLLABORATION: LIFNI SANDERS X SOMETHINC*/
+.card-bodyhshf{
+    margin-top: 50px;
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CSS UNTUK MENGATUR TITLE CARD SPECIAL COLLABORATION: LIFNI SANDERS X SOMETHINC*/
+.card-titlehshf{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* CSS UNTUK MENGATUR TEXT LINK SPECIAL COLLABORATION: LIFNI SANDERS X SOMETHINC*/
+.btnhshf{
+    font-size: 20px;
+}
+
+/* CSS UNTUK MENGATUR JARAK CARD PRODUK "LIFNI SANDERS X SOMETHINC" */
+.card-deck{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+/* CSS UNTUK MENGATUR BG CARD PRODUK "LIFNI SANDERS X SOMETHINC" */
+.card-body{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* CSS UNTUK MENGATUR FONT TITLE CARD PRODUK "LIFNI SANDERS X SOMETHINC" */
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* CSS UNTUK MENGATUR FONT DESKRIPSI CARD PRODUK "LIFNI SANDERS X SOMETHINC" */
+.card-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+/* CSS UNTUK MENGATUR BG DAN MARGIN FOOTER*/
+.cardfooter-header{
+    background-color: floralwhite;
+    margin-top: 50px;
+}
+
+/* CSS UNTUK MENGATUR FONT FOOTER FOLLOW US ON, HELP, DAN PAYMENT */
+.col-sm{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* CSS UNTUK MENGATUR FONT SIZE FOOTER HELP */
+.col-smhelp{
+    font-size: 15px;
+}

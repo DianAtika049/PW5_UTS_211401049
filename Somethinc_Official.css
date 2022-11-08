@@ -1,0 +1,238 @@
+/* CSS UNTUK MENGUBAH BG COLOR SELURUH KONTEN */
+body{
+    background-color: plum;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR NAVBAR*/
+.navbar{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR, JENIS, DAN SIZE FONT PADA NAVBAR HOME, ABOUT US, DLL */
+.nav-link{
+    font-family: cursive;
+    font-size: 17px;
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MEMBERIKAN HOVER DI NAVBAR */
+.nav-link:hover{
+    background-color: plum ;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR, FONT, DAN ALIGN DROPDOWN MENU*/
+.dropdown-menu{
+    background-color:white;
+    font-family: cursive;
+    text-align: center;
+}
+
+/* CSS UNTUK MENGUBAH WARNA TULISAN WIDGET SEARCH */
+.btn{
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MENGUBAH WARNA TULISAN DI FORM WIDGET SEACRH */
+.form-control{
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MEMBUAT TULISAN NAMA WEB, LOGO, DAN SLOGAN BERADA DI TENGAH NAVBAR */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1 0 50%;
+}
+
+/* CSS UNTUK MENGUBAH JENIS FONT DAN KETEBALAN NAMA WEB YANG BERADA DI TENGAH NAVBAR */
+.somethinc{
+    font-family: century gothic;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* CSS UNTUK MENGUBAH JENIS FONT DAN KETEBALAN SLOGAN WEB YANG BERADA DI TENGAH NAVBAR */
+.slogan_somethinc{
+    font-family: cochin;
+    font-weight: bold;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR, JARAK KANAN KIRI AGAR TIDAK MEMENUHI LAYAR, DAN TINGGI SLIDER / CAROUSEL */
+.carousel-inner{
+    max-height: 700px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: plum;
+}
+
+/* CSS UNTUK MENGUBAH JARAK ATAS, KANAN, DAN KIRI CARD AGAR TIDAK MEMENUHI LAYAR */
+.card-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR DAN RATA TENGAH SELURUH TEXT DI CARD */
+.card-body{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* CSS UNTUK MENGUBAH JENIS DAN KETEBALAN FONT DI TITLE CARD */
+.card-title{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/* CSS UNTUK MENGUBAH JENIS FONT DI DESKRIPSI CARD */
+.card-text{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* CSS UNTUK MENGUBAH BACKGROUND DAN IMG TIDAK BERULANG DI CARD SPECIAL COLLAB */
+.card-bodysc{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CSS UNTUK MENGUBAH JENIS, KETEBALAN, DAN SIZE FONT DI TITLE CARD SPECIAL COLLAB */
+.card-titlesc{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* CSS UNTUK MENGUBAH WARNA DAN UKURAN FONT, SERTA BG IMAGE DI BUTTON CARD SPECIAL COLLAB */
+.btnsc{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: black;
+}
+
+/* CSS UNTUK MENGUBAH BACKGROUND DAN IMG TIDAK BERULANG DI CARD SPECIAL COLLAB */
+.card-bodybs{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CSS UNTUK MENGUBAH JENIS, KETEBALAN, DAN SIZE FONT DI TITLE CARD SPECIAL COLLAB */
+.card-titlebs{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* CSS UNTUK MENGUBAH WARNA DAN UKURAN FONT, SERTA BG IMAGE DI BUTTON CARD SPECIAL COLLAB */
+.btnbs{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: black;
+}
+
+/* CSS UNTUK MENGUBAH PADDING, MARGIN, DAN BG COLOR UNTUK CAROUSEL BEST SELLER */
+.carousel-innerbest{
+    max-height: 700px !important;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 365px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: plum;
+}
+
+/* CSS UNTUK MENGUBAH FONT TITLE DI CARD BEST SELLER */
+.card-titlebest{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px
+}
+
+/* CSS UNTUK MENGUBAH FONT TEXT DI CARD BEST SELLER */
+.card-textbest{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+/* CSS UNTUK MENGUBAH FONT TITLE DI CARD DISCOUNT ITEMS */
+.card-titlediskon{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* CSS UNTUK MENGUBAH FONT TEXT DI CARD DISCOUNT ITEMS */
+.card-textdiskon{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+/* CSS UNTUK MENGUBAH MARGIN, PADDING, DAN BG-COLOR DI CAROUSEL DISCOUNT ITEMS */
+.carousel-innerdiskon{
+    max-height: 700px !important;
+    margin-top: 2px;
+    margin-bottom: 13px;
+    padding-bottom: 360px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: plum;
+}
+
+.cardkonten{
+    margin-bottom: 70px;
+    margin-left: 530px;
+}
+
+.cardkonten-img-top{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 288px;
+}
+
+.cardkonten-text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cardfooter-header{
+    text-align: center;
+    font-family: cursive;
+    font-size: 17px;
+    background-color: floralwhite;
+}
+
+.col-sm{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.col-smhelp{
+    font-size: 15px;
+}

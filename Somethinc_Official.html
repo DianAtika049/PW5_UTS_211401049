@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="Somethinc_Official.css"
+
+    <title></title>
+  </head>
+  <body>
+
+  <!-- BOOTSTRAP UNTUK LOGO, SLOGAN, DAN WIDGET DI NAVBAR --> 
+  <nav class="navbar navbar-expand-lg">
+    
+  <!-- BOOTSTRAP UNTUK HOME, ABOUT US, ALL PRODUCTS, SHOPS, DAN TIPS-->
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="http://127.0.0.1:5500/UTS/Somethinc_Official.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://127.0.0.1:5500/UTS/Halaman%20About%20Us/About_Us.html">About Us</a>
+      </li>
+      <!-- BOOTSTRAP UNTUK MEMBUAT NAVBAR (PRODUCTS) YANG TERBAGI LAGI / DROPDOWN LINK -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="https://somethinc.com/en/collection/skincare" target="_blank">Skincare</a>
+          <a class="dropdown-item" href="https://somethinc.com/en/collection/body-creme-oil" target="_blank">Bodycare</a>
+          <a class="dropdown-item" href="https://somethinc.com/en/collection/makeup" target="_blank">Makeup</a>
+          <a class="dropdown-item" href="https://somethinc.com/en/collection/tools" target="_blank">Tools</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Shops
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="https://shopee.co.id/somethinc" target="_blank">Shopee</a>
+          <a class="dropdown-item" href="https://www.tokopedia.com/somethinc" target="_blank">Tokopedia</a>
+          <a class="dropdown-item" href="https://www.blibli.com/merchant/somethinc-official-store/SOO-60052" target="_blank">Blibli</a>
+          <a class="dropdown-item" href="https://www.lazada.co.id/shop/somethinc-official/?path=index.htm" target="_blank">Lazada</a>
+        </div>
+      </li>
+    </ul>
+    <!-- UNTUK NAMA WEB, LOGO, DAN SLOGAN DI TENGAH-->
+    <div class="center">
+        <figure align="center">
+            <figcaption align="center">
+                <h3 class="somethinc">SOMETHINC</h3>
+            </figcaption>
+                <img src="nobg.png" width="50" height="50" alt="logo_somethinc">
+            <figcaption align="center">
+                <h4 class="slogan_somethinc">Be You, Be Somethinc!</h4>
+            </figcaption>
+        </figure>
+    </div>
+     <!-- BOOTSTRAP UNTUK WIDGET SEARCH --> 
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control ml-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+    </nav>
+
+    <!-- BOOTSRAP UNTUK CAROUSEL BERANDA / IMG SLIDER -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <!-- HTML UNTUK MENGATUR BERAPA BANYAK INDICATOR DI CAROUSEL SLIDE -->  
+      <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <!-- HTML UNTUK MENGATUR GAMBAR YANG AKAN MUNCUL DI CAROUSEL -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="banner1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="banner4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="banner5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="banner6.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <!-- HTML UNTUK MENGATUR BUTTON NEXT / PREVIOUS CAROUSEL -->
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div> 
+
+      <!--BOOTSTRAP UNTUK MENGATUR CARD YANG BERISI SPECIAL COLLABORATION-->
+      <div class="card text-center">
+        <div class="card-bodysc">
+          <h5 class="card-titlesc">💜 Special Collaboration 💜</h5>
+          <a href="https://somethinc.com/id" class="btnsc btnsc-primary">- Get Yours Now! -</a>
+        </div>
+      </div>
+
+      <!-- BOOTSTRAP UNTUK MENGATUR CARD / KONTEN DI BAWAH CARD SPECIAL COLLABORATION -->      
+      <!-- HTML UNTUK MENGATUR CARD / KONTEN DI BAWAH CARD SPECIAL COLLABORATION (HAN SO HEE) -->     
+      <div class="card-group">
+        <div class="card">
+          <a href="http://127.0.0.1:5500/UTS/Halaman%20Han%20So%20Hee's%20Favourites/Han%20So%20Hee's%20Favourites.html" target="_blank">
+          <img src="hsh_niaci.jpg" class="card-img-top" alt="somethinc x han so hee"></a>
+          <div class="card-body">
+            <h5 class="card-title">Han So Hee's Favourites</h5>
+            <p class="card-text">Skincare Favorit Han So Hee yang akan Membuat Wajahmu Secerah Senyumannya!</p>
+          </div>
+        </div>
+      <!-- HTML UNTUK MENGATUR CARD / KONTEN DI BAWAH CARD SPECIAL COLLABORATION (LIFNI SANDERS) -->     
+        <div class="card">
+          <a href="http://127.0.0.1:5500/UTS/Lifni%20Sanders%20x%20Somethinc/Lifni%20Sanders%20x%20Somethinc.html" target="_blank">
+          <img src="lifni.jpg" class="card-img-top" alt="somethinc x lifni sanders"></a>
+          <div class="card-body">
+            <h5 class="card-title">Lifni Sanders x Somethinc</h5>
+            <p class="card-text">Rayakan Keberagaman dan Pilih Breathable Cushion yang Lifni Sanders Rekomendasikan!</p>
+          </div>
+        </div>
+      <!-- HTML UNTUK MENGATUR CARD / KONTEN DI BAWAH CARD SPECIAL COLLABORATION (KOPI KENANGAN) -->     
+        <div class="card">
+          <a href="http://127.0.0.1:5500/UTS/Kopi%20Kenangan%20x%20Somethinc/Kopi%20Kenangan%20x%20Somethinc.html" target="_blank"><img src="kopken.jpg" class="card-img-top" alt="somethinc x kopi kenangan"></a>
+          <div class="card-body">
+            <h5 class="card-title">Kopi Kenangan x Somethinc</h5>
+            <p class="card-text">Kopi jadi Skincare Routine?</p>
+          </div>
+        </div>
+      <!-- BOOTSTRAP UNTUK MENGATUR CARD / KONTEN DI BAWAH CARD SPECIAL COLLABORATION (PRINCESS SYAHRINI) -->     
+        <div class="card">
+          <a href="http://127.0.0.1:5500/UTS/Halaman%20Princess%20Syahrini%20x%20Somethinc/Princess%20Syahrini%20x%20Somethinc.html" target="_blank"><img src="syahrini.jpg" class="card-img-top" alt="somethinc x princess syahrini"></a>
+          <div class="card-body">
+            <h5 class="card-title">Princess Syahrini x Somethinc</h5>
+            <p class="card-text">Ingin Menjadi Cetar seperti Princess Syahrini? Cus, Pilih Skincare Jawara Ala Princess, Ulalaa~</p>
+          </div>
+        </div>
+      <!-- BOOTSTRAP UNTUK MENGATUR CARD / KONTEN DI BAWAH CARD SPECIAL COLLABORATION (NCT DREAMS) -->     
+        <div class="card">
+          <a href="http://127.0.0.1:5500/UTS/Halaman%20NCT%20Dreams's%20Favourites/NCT%20Dream's%20Favourites.html" target="_blank"><img src="nct.jpg" class="card-img-top" alt="somethinc x nct dreams"></a>
+          <div class="card-body">
+            <h5 class="card-title">NCT Dream's Favourites</h5>
+            <p class="card-text">Bingung Mau Beli Skincare atau Photocard? NCT Dream's Favourites jawabannya!</p>
+          </div>
+        </div>
+      </div>
+
+      <!--BOOTSTRAP UNTUK MENGATUR CARD YANG BERISI BEST SELLER -->
+      <div class="card text-center">
+        <div class="card-bodybs">
+          <h5 class="card-titlebs">🎆 Best Seller 🎆</h5>
+          <a href="https://somethinc.com/id" class="btnbs btnbs-primary">- What Are You Waiting For? -</a>
+        </div>
+      </div>
+
+      <!-- BOOTSTRAP UNTUK MENGATUR CAROUSEL DAN CARD BEST SELLER -->
+      <!-- DI DALAM BOOTSTRAP CAROUSEL, ADA BOOTSRAP UNTUK CARD LAGI (SUPAYA CARD BISA JADI SLIDE / DIGESER) -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-innerbest">
+          <div class="carousel-item active">
+            <!-- BOOTSTRAP UNTUK CARD DECK DI DALAM CAROUSEL BEST SELLER -->
+            <div class="card-deck">
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/5-niacinamide-moisture-sabi-beet-serum" target="_blank"><img src="niaciminade.png" class="card-img-top" alt="5-niacinamide-moisture-sabi-beet-serum"></a>
+                <div class="card-body">
+                  <h5 class="card-titlebest">5% Niacinamide + Moisture Sabi Beet Serum</h5>
+                  <p class="card-textbest">Rp89.000,00</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/10-niacinamide-moisture-sabi-beet-max-brightening-serum" target="_blank"><img src="hsh_niaci.jpg" class="card-img-top" alt="10-niacinamide-moisture-sabi-beet-max-brightening-serum"></a>
+                <div class="card-body">
+                  <h5 class="card-titlebest">10% Niacinamide + Moisture Sabi Beet Serum</h5>
+                  <p class="card-textbest">Rp115.500,00</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/low-ph-gentle-jelly-cleanser" target="_blank"><img src="hsh_jelly.jpg" class="card-img-top" alt="low ph gentle jelly cleanser"></a>
+                <div class="card-body">
+                  <h5 class="card-titlebest">Low Ph Gentle Jelly Cleanser</h5>
+                  <p class="card-textbest"><br> Rp99.000,00</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/bakuchiol-skinpair-oil-serum" target="_blank"><img src="bakuchiol.jpg" class="card-img-top" alt="bakuchiol-skinpair-oil-serum"></a>
+                <div class="card-body">
+                  <h5 class="card-titlebest">Bakuchiol Skinpair Oil Serum</h5>
+                  <p class="card-textbest"><br> Rp89.000,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- BOOTSTRAP UNTUK CARD DECK DI DALAM CAROUSEL BEST SELLER -->
+            <div class="card-deck">
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/hyaluronic9-advanced-b5-serum" target="_blank"><img src="hyaluronic.jpg" class="card-img-top" alt="hyaluronic9-advanced-b5-serum"></a>
+                <div class="card-body">
+                  <h5 class="card-titlebest">HYAluronic9 + Advanced + B5 Serum</h5>
+                  <p class="card-textbest">Rp115.000,00</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/glow-maker-clarifying-treatment-toner" target="_blank"><img src="glow_maker.jpg" class="card-img-top" alt="glow-maker-clarifying-treatment-toner"></a>
+                <div class="card-body">
+                  <h5 class="card-titlebest">Glow Maker AHA BHA PHA Clarifying Toner</h5>
+                  <p class="card-textbest">Rp119.000,00</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/holyshield-uv-watery-sunscreen-gel-spf-50-pa" target="_blank"><img src="ss.jpg" class="card-img-top" alt="holyshield-uv-watery-sunscreen-gel-spf-50-pa"></a>
+                <div class="card-body">
+                  <h5 class="card-titlebest">Sunscreen Gel SPF 50++ PA++++</h5>
+                  <p class="card-textbest"><br> Rp125.000,00</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/holyshield-sunscreen-comfort-corrector-serum-spf-50-pa" target="_blank"><img src="ss serum.jpg" class="card-img-top" alt="holyshield-sunscreen-comfort-corrector-serum-spf-50-pa"></a>
+                <div class="card-body">
+                  <h5 class="card-titlebest">Sunscreen Serum SPF 50++ PA++++</h5>
+                  <p class="card-textbest"><br> Rp149.000,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+      <!--BOOTSTRAP UNTUK MENGATUR CARD YANG BERISI DISCOUNT ITEMS - Buy Somethinc For Your Skin! -->
+      <div class="card text-center">
+        <div class="card-bodybs">
+          <h5 class="card-titlebs">🔮 Discount Items 🔮</h5>
+          <a href="https://somethinc.com/id" class="btnbs btnbs-primary">- Buy Somethinc For Your Skin! -</a>
+        </div>
+      </div>
+
+      <!-- BOOTSTRAP UNTUK CAROUSEL DISCOUNT ITEMS -->
+      <div id="carouselExampleControlsdiskon" class="carousel slide" data-ride="carousel">
+        <div class="carousel-innerdiskon">
+          <div class="carousel-item active">
+            <!-- BOOTSTRAP UNTUK CARD GROUP DI DALAM CAROUSEL DISCOUNT ITEMS -->
+            <div class="card-group">
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/tamago-airy-blush" target="_blank"><img src="tamago.jpg" class="card-img-top" alt="tamago-airy-blush"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Tamago Airy Blush</h5>
+                  <p class="card-textdiskon"><s>Rp69.000,00</s>  Rp59.000,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/axillary-brightening-cream" target="_blank"><img src="axillary.jpg" class="card-img-top" alt="axillary-brightening-cream"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Axillary Cream</h5>
+                  <p class="card-textdiskon"><s>Rp79.000,00</s>  Rp67.150,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/fabric-lasting-tint" target="_blank"><img src="fabric_tint.jpg" class="card-img-top" alt="fabric-lasting-tint"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Fabric Tint</h5>
+                  <p class="card-textdiskon"><s>Rp79.000,00</s>  Rp75.050,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/forever-friends-blendie-set" target="_blank"><img src="blendie_set.jpg" class="card-img-top" alt="ff-blendie-set"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">FF Blendie Set</h5>
+                  <p class="card-textdiskon"><s>Rp179.000,00</s>  Rp152.150,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/vita-propolis-hydra-power-mist" target="_blank"><img src="propolis_hydra.png" class="card-img-top" alt="vita-propolis-hydra-power-mist"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Hydra Mist</h5>
+                  <p class="card-textdiskon"><s>Rp135.000,00</s> Rp124.200,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/cushion-puff-refill" target="_blank"><img src="cushion_puff.jpg" class="card-img-top" alt="cushion-puff-refill"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Cushion Puff Refill</h5>
+                  <p class="card-textdiskon"><s>Rp55.000,00</s>  Rp45.000,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <!-- BOOTSTRAP UNTUK CARD GROUP DI DALAM CAROUSEL DISCOUNT ITEMS -->
+            <div class="card-group">
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/bacne-1-biosalicylic-spray" target="_blank"><img src="bacne_spray.jpg" class="card-img-top" alt="bacne-1-biosalicylic-spray"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Bacne 1% Biosalicylic Spray</h5>
+                  <p class="card-textdiskon"><s>Rp75.000,00</s>  Rp65.000,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/multitask-water-gloss" target="_blank"><img src="watergloss.png" class="card-img-top" alt="multitask-water-gloss"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">MULTITASK ALL Water Gloss</h5>
+                  <p class="card-textdiskon"><s>Rp79.000,00</s>  Rp75.050,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/bust-firming-serum" target="_blank"><img src="bustfirming.png" class="card-img-top" alt="bust-firming-serum"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Bust Firming Serum</h5>
+                  <p class="card-textdiskon"><br> <s>Rp119.000,00</s>  Rp89.250,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/merchandise-set" target="_blank"><img src="merchandise.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Special Merchandise Set</h5>
+                  <p class="card-textdiskon"><s>Rp175.200,00</s>  Rp99.000,00</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="https://somethinc.com/id/product/detail/omega-butter-deep-cleansing-balm" target="_blank"><img src="omegabutter.jpg" class="card-img-top" alt="omega-butter-deep-cleansing-balm"></a>
+                <div class="card-body">
+                  <h5 class="card-titlediskon">Omega Butter Cleansing Balm</h5>
+                  <p class="card-textdiskon"><s>Rp149.000,00</s>  Rp104.300,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsdiskon" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsdiskon" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+      <!--BOOTSTRAP UNTUK MENGATUR CARD YANG BERISI TIPS (GO AND GET SOME TIPS FROM US) -->
+      <div class="card text-center">
+        <div class="card-bodybs">
+          <h5 class="card-titlebs">☂️ Tips ☂️</h5>
+          <a href="http://127.0.0.1:5500/UTS/Halaman%20Tips/Tips.html" target="_blank" class="btnbs btnbs-primary">- Go and Get Some Tips From Us! -</a>
+        </div>
+      </div>
+      
+      <!-- BOOTSTRAP UNTUK MENGATUR CARD TIPS (BUKAN TITLE BESAR, TAPI KONTEN) -->
+      <div class="cardkonten" style="width: 18rem;">
+        <img src="tips.png" class="cardkonten-img-top" alt="...">
+        <div class="card-body">
+          <a href="http://127.0.0.1:5500/UTS/Halaman%20Tips/Tips.html" target="_blank" style="color:black"><p class="cardkonten-text">Bingung sama Tipe Kulit Kamu? Atau Kamu Bingung Mau Beli Skincare yang Mana? Klik dan Dapatkan Jawabannya!</p></a>
+        </div>
+      </div>
+
+      <!-- BOOTSTRAP CARD UNTUK FOOTER DI BAGIAN PALING BAWAH -->
+      <div class="card">
+        <div class="cardfooter-header">
+          <!-- HTML MARQUEE UNTUK MEMBUAT TEKS BERGESER -->
+          <marquee direction="right">Since every part of YOU is unique, we always want to make something for you.</marquee> 
+        </div>
+        <div class="card-body">
+          <!-- BOOTSTRAP UNTUK MEMBUAT COLUMN / AGAR FOOTER TERBAGI MENJADI BEBERAPA BAGIAN -->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                👉🏻 Follow Us On 👈🏻
+                <div class="col-sm">
+                  <br>
+                  <a href="https://www.instagram.com/somethincofficial/?hl=id" target="_blank"
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">Instagram</a>
+                  <a href="https://twitter.com/Somethinc4u?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="btn btn-outline-primary" role="button" aria-pressed="true">Twitter</a>
+                </div>
+                <div class="col-sm">
+                  <br>
+                  <a href="https://www.facebook.com/somethinc/" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">Facebook</a>
+                  <a href="https://www.tiktok.com/@somethincofficial?lang=id-ID" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">TikTok</a>
+                </div>
+              </div>
+
+              <div class="col-sm">
+                💁🏻 Help 💁🏻
+                <div class="col-smhelp">
+                  <br>
+                  <a href="https://somethinc.com/id/faq/general" target="_blank">FAQ</a>
+                </div>
+                <div class="col-smhelp">
+                  <a href="https://somethinc.com/id/confirm-payment" target="_blank">Confirm Payment</a>
+                </div>
+                <div class="col-smhelp">
+                  <a href="https://somethinc.com/id/track" target="_blank">Track Order</a>
+                </div>
+                <div class="col-smhelp">
+                  <a href="https://somethinc.com/id/terms-and-conditions" target="_blank">Term And Conditions</a>
+                </div>
+                <div class="col-smhelp">
+                  <a href="https://somethinc.com/id/privacy-policy" target="_blank">Privacy And Policy</a>
+                </div>
+              </div>
+
+              <div class="col-sm">
+                💸 Payment 💸
+                <div class="col-sm">
+                  <br>
+                  <a href="https://ibank.bni.co.id/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD/ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=BNI01&LANGUAGE_ID=002" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">BNI</a>
+                  <a href="https://bri.co.id/internet-banking" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">BRI</a>
+                  <a href="https://www.bca.co.id/id/individu" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">BCA</a>
+                  <a href="https://bankmandiri.co.id/" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">Mandiri</a>
+                </div>
+                <div class="col-sm">
+                  <br>
+                  <a href="https://www.dana.id/" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">Dana</a>
+                  <a href="https://www.ovo.id/" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">Ovo</a>
+                  <a href="https://www.jenius.com/" target="_blank" 
+                  class="btn btn-outline-primary" role="button" aria-pressed="true">Jenius</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </body>
+</html>
