@@ -1,0 +1,178 @@
+/* CSS UNTUK MENGUBAH BG COLOR SELURUH KONTEN */
+body{
+    background-color: floralwhite;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR NAVBAR*/
+.navbar{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR, JENIS, DAN SIZE FONT PADA NAVBAR HOME, ABOUT US, DLL */
+.nav-link{
+    font-family: cursive;
+    font-size: 17px;
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MEMBERIKAN HOVER DI NAVBAR */
+.nav-link:hover{
+    background-color: floralwhite ;
+}
+
+/* CSS UNTUK MENGUBAH BG COLOR, FONT, DAN ALIGN DROPDOWN MENU*/
+.dropdown-menu{
+    background-color:white;
+    font-family: cursive;
+    text-align: center;
+}
+
+/* CSS UNTUK MENGUBAH WARNA TULISAN WIDGET SEARCH */
+.btn{
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MENGUBAH WARNA TULISAN DI FORM WIDGET SEACRH */
+.form-control{
+    color: rebeccapurple;
+}
+
+/* CSS UNTUK MEMBUAT TULISAN NAMA WEB, LOGO, DAN SLOGAN BERADA DI TENGAH NAVBAR */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1 0 50%;
+}
+
+/* CSS UNTUK MENGUBAH JENIS FONT DAN KETEBALAN NAMA WEB YANG BERADA DI TENGAH NAVBAR */
+.somethinc{
+    font-family: century gothic;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* CSS UNTUK MENGUBAH JENIS FONT DAN KETEBALAN SLOGAN WEB YANG BERADA DI TENGAH NAVBAR */
+.slogan_somethinc{
+    font-family: cochin;
+    font-weight: bold;
+}
+
+/* CSS UTNUK MENGUBAH MARGIN, TRXT-ALIGN, DAN DISPLAY SELURUH CARD */
+.card{
+    margin-top: 30px;
+    margin-left: 285px;
+    margin-right: 250px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* CSS UNTUK MENGUBAH CARD-BODY YANG BERISI "Since every part of YOU is unique, we always want to make something for you" */
+.card-bodypembuka{
+    padding: 15px;
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CSS UNTUK MENGUBAH FONT FAMILY DAN SIZE DESKRPSI "Since every part of YOU is unique, we always want to make something for you"" */
+.card-textpembuka{
+    font-family: cursive;
+    font-size: 17px;
+}
+
+/* CSS UNTUK BG, PADDING, DAN MARGIN DESKRPSI (Somethinc - Brand Kecantikan Lokal dengan Kualitas Premium) */
+.cardisi{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-right: 105px;
+    padding: 10px;
+}
+
+/* CSS UNTUK MENGUBAH FONT TITLE "Somethinc - Brand Kecantikan Lokal dengan Kualitas Premium" */
+.card-titleisi{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* CSS UNTUK MENGUBAH FONT TEXT DESKRIPSI "Somethinc - Brand Kecantikan Lokal dengan Kualitas Premium" */
+.card-textisi{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* CSS UNTUK MENGUBAH CARD DECK "Somethinc Terus Berinovasi Memproduksi Skincare & Makeup Terbaik" & "Temukan Promo Skincare & Makeup Lokal dengan Harga Terbaik" */
+.card-deck{
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-right: 105px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS UNTUK MENGUBAH CARD BODY "Somethinc Terus Berinovasi Memproduksi Skincare & Makeup Terbaik" & "Temukan Promo Skincare & Makeup Lokal dengan Harga Terbaik" */
+.card-bodykonten2{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: floralwhite;
+}
+
+/* CSS UNTUK MENGUBAH FONT TITLE "Somethinc Terus Berinovasi Memproduksi Skincare & Makeup Terbaik" & "Temukan Promo Skincare & Makeup Lokal dengan Harga Terbaik" */
+.card-title{    
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* CSS UNTUK MENGUBAH FONT TEXT DESKRIPSI "Somethinc Terus Berinovasi Memproduksi Skincare & Makeup Terbaik" & "Temukan Promo Skincare & Makeup Lokal dengan Harga Terbaik" */
+.card-text{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* CSS UNTUK MENGATUR BG, TEXT-ALIGN, DAN MARGIN FOOTER */
+.cardfooter{
+    margin-top: 40px;
+    background-image: url('bg_lilac.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* CSS UNTUK MENGATUR FONT, BG, DAN TEXT-ALIGN HTML MARQUEE (BERGERAK) */
+.card-header{
+    text-align: center;
+    font-family: cursive;
+    font-size: 17px;
+    background-color: floralwhite;
+}
+
+/* CSS UNTUK MENGATUR FONT FOOTER FOLLOW US ON, HELP, DAN PAYMENT */
+.col-sm{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* CSS UNTUK MENGATUR FONT SIZE FOOTER HELP */
+.col-smhelp{
+    font-size: 15px;
+}
